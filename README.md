@@ -3,10 +3,6 @@
 ## Overview
 Implementation of machine learning models for stroke prediction using healthcare data. Models include Logistic Regression, Dense Neural Network, and Convolutional Neural Network.
 
-## Models
-- Logistic Regression (74.95% accuracy)
-- Dense Neural Network (86.50% accuracy)
-- CNN (78.67% accuracy)
 
 ## Dataset
 Healthcare stroke prediction dataset with 5110 samples
@@ -25,6 +21,8 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 from pathlib import Path
 import json
+import random
+import csv
 import datetime
 import time
 import pandas as pd
